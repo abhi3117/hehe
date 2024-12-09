@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flowies for u</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1 class="heading" id="heading">choose one heh</h1>
+    <div class="main">
+        <div class="main1">
+           <img src="01A-1.webp" alt="">
+           <button id="pehla" class="btn" onclick="first()" type="button">dis</button>
+        </div>
+        <div class="main2">
+            <img src="my-melody-bouquet-v0-n3bvy6y7votd1.webp" alt="">
+            <button id="dusra" class="btn" onclick="second()" type="button">dis</button>
+        </div>
+        <div class="main3">
+            <img src="Untitled-design-93.png" alt="">
+            <button id="tisra" class="btn" onclick="third()" type="button">dis</button>
+        </div>
+    </div>
+
+    <div class="main mainsecond" id="divchange">
+        <div class="main1">
+           <img src="1632922770_12854.webp" alt="">
+        </div>
+        <div class="main2">
+            <img src="yeh.jpg" alt="">
+        </div>
+        <div class="main3 flexie">
+            <img src="tamatar.jpg" alt="">
+            <h1>Hey cutie little tomato princess. I've been making it since. </h1>
+        </div>
+    </div>
+</body>
+<script>
+   function first(){
+    document.getElementById("heading").innerHTML="im jk they're all urs (scroll down cutie)";
+    document.getElementById("pehla").style.display="none";
+    document.getElementById("dusra").style.display="none";
+    document.getElementById("tisra").style.display="none";
+    document.getElementById("divchange").style.display="block";
+   }
+   function second(){
+    document.getElementById("heading").innerHTML="im jk they're all urs (scroll down cutie)";
+    document.getElementById("dusra").style.display="none";
+    document.getElementById("pehla").style.display="none";
+    document.getElementById("tisra").style.display="none";
+    document.getElementById("divchange").style.display="block";
+
+   }
+   function third(){
+    document.getElementById("heading").innerHTML="im jk they're all urs (scroll down cutie)";
+    document.getElementById("tisra").style.display="none";
+    document.getElementById("pehla").style.display="none";
+    document.getElementById("dusra").style.display="none";
+    document.getElementById("divchange").style.display="block";
+   }
+</script>
+</html>
